@@ -22,4 +22,3 @@ class WikiPage(BasePage):
             if item:
                 list.append(item.get_attribute("href"))
         return list
-

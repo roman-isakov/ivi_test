@@ -59,4 +59,4 @@ def test_google_play_mark(browser):
             else:
                 google_page.go_to_next_page()
     google_play_page = GooglePlayPage(browser)
-    assert rating == google_play_page.get_app_raiting()
+    assert rating == google_play_page.get_app_rating()
